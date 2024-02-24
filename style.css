@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  /* ------font style----*/
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+
+/* ---------------Generel style----------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0px auto;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    margin-top: 50px;
+    padding: 20px;
+    min-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 7px gainsboro;
+}
+
+.sana{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.vaqit{
+    text-align: center;
+    margin-top: 7px;
+    font-size: 26px;
+}
+
+.titil{
+    text-align: center;
+    margin-top: 10px;
+    color: #6495ed; 
+    font-size: 38px;
+    text-decoration: initial;
+}
+
+.card{
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 1px gainsboro;
+    margin-top: 20px;
+}
+
+/* FORM STYLE START */
+.card--top{
+    width: 100%;
+}
+
+.forma{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-input{
+    padding: 7px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.form-input::placeholder{
+    color: rgb(241, 105, 105);
+}
+
+.forim-eror{
+    font-size: x-large;
+    text-align: center;
+    color: rgb(241, 105, 105);
+     
+}
+
+.form-btn{
+    width: 100px;
+    margin-left: auto;
+    padding: 7px 20px;
+    border: none;
+    background: rgb(11, 200, 11);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-btn:active{
+    background: rgb(10, 159, 10);
+
+}
+/* FORM STYLE END */
+
+
+/* CARD LIST STYLE START */
+
+.card-list{
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+
+.list .list--itim{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 7px;
+    box-shadow: 1px 1px 0px 1px  gainsboro;
+    cursor: pointer;
+}
+
+.list .list--itim:active{
+    box-shadow: 0px 0px 1px 1px  gainsboro;
+
+}
+
+.list .list--itim .itim--div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.list .list--itim .itim--div .bi-pencil-square{
+    padding: 5px 7px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: rgb(255, 191, 0);
+    color: #fff;
+    margin-left: 12px;
+    margin-right: 5px;
+}
+
+.list .list--itim .itim--div .bi-pencil-square:active{
+    background: rgb(209, 157, 2);
+    transition: all .2s linear;
+}
+
+.list .list--itim .itim--div .bi-trash-fill{
+    padding: 5px 7px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: rgb(255, 17, 0);
+    color: #fff;
+}
+
+.list .list--itim .itim--div .bi-trash-fill:active{
+    background: rgb(202, 18, 4);
+    transition: all .2s linear;
+}
+/* CARD LIST STYLE END */
+
+
+/* MODAL CONTENT START */
+.modal{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    background: rgba(154, 154, 154, 0.725);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-cantent{
+    min-width: 350px;
+    background: #FFF;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 2px  rgb(250, 135, 135) ;
+    position: relative;
+}
+
+.modal-cantent .bi-x-lg{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgb(252, 48, 48);
+}
+/* MODAL CONTENT END */
+
+
+/* complited  js*/
+
+.complited{
+    opacity: 0.4;
+}

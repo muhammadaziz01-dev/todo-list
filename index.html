@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- link css -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <h1 id="sana" class="sana">KUN:OY:YIL</h1>
+            <h3 class="vaqit">12:12:12</h3>
+            <h1 class="titil">TODO LIST</h1>
+
+            <div class="card">
+                <div class="card--top">
+                    <form id="form"  class="forma">
+                        <input id="form-input" type="text" placeholder="add text....." class="form-input" autocomplete="off">
+                        <span id="text-erorr" class="forim-eror"></span>
+                        <button  class="form-btn">add</button>
+                    </form>
+                </div>
+                <div class="card-list">
+                    <ul id="list" class="list">
+                        <!-- <li class="list--itim">
+                            text....
+                            <div class="itim--div">
+                                <span id="edit-taim">12:12:12</span>
+                                <i class="bi bi-pencil-square"></i>
+                                <i class="bi bi-trash-fill"></i>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-cantent">
+            <form id="form-edit" class="forma">
+                <i id="close-elment" class="bi bi-x-lg"></i>
+                <input id="form-input-edit" type="text" placeholder="change the text....." class="form-input" autocomplete="off">
+                <span id="text-erorr-edit" class="forim-eror"></span>
+                <button class="form-btn">storage</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
