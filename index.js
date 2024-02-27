@@ -48,9 +48,6 @@ function shovMesseg(where , messege) {
 
 
 
-
-
-
 //tim (Vaqitni hiosoblanb uni yuvayga ga chiqarish) ----
 
 function getTime (){
